@@ -95,6 +95,9 @@ function displayData(items, title) {
                         td.textContent = item[key];
                     }
                }
+               else{
+                  td.textContent = item[key];
+               }
               
                 
             
